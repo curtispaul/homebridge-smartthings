@@ -9,7 +9,7 @@ definition(
     namespace: "pdlove",
     author: "Paul Lovelace",
     description: "API for JSON with complete set of devices",
-    category: "SmartThings Labs",
+    category: "Safety & Security",
     iconUrl:   "https://dl.dropboxusercontent.com/u/17876795/JSON%401.png",
     iconX2Url: "https://dl.dropboxusercontent.com/u/17876795/JSON%402.png",
     iconX3Url: "https://dl.dropboxusercontent.com/u/17876795/JSON%403.png",
@@ -420,4 +420,3 @@ mappings {
         path("/getSubcriptionService")          { action: [GET: "getSubscriptionService"] }
     }
 }
-
